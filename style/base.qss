@@ -1,0 +1,56 @@
+QMainWindow {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+QWidget {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+QPushButton {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #74c7ec;
+}
+
+QLineEdit {
+    background-color: #313244;
+    color: #cdd6f4;
+    border: 2px solid #45475a;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+QComboBox {
+    background-color: #313244;
+    color: #cdd6f4;
+    border: 2px solid #45475a;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+QLabel {
+    color: #cdd6f4;
+}
+
+QProgressBar {
+    border: 2px solid #45475a;
+    border-radius: 5px;
+    background-color: #313244;
+    text-align: center;
+    color: #cdd6f4;
+}
+
+QProgressBar::chunk {
+    background-color: #89b4fa;
+    border-radius: 3px;
+}

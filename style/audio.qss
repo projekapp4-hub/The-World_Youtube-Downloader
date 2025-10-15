@@ -1,0 +1,19 @@
+/* Style khusus untuk audio tab */
+QLabel#quality_label {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton#download_btn {
+    background-color: #94e2d5;
+    color: #1e1e2e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QPushButton#download_btn:hover {
+    background-color: #74c7ec;
+}

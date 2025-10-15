@@ -1,0 +1,1 @@
+pyinstaller --name "The-World" --onedir --windowed --clean --noconfirm --add-data "assets;assets" --add-data "style;style" --add-data "bin;bin" --icon "assets/icon.ico" main.py
