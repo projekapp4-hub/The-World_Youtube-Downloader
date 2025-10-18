@@ -126,8 +126,9 @@ class Backend:
         return subprocess.Popen(cmd)
     
     def _get_format_id(self, resolution):
-        """Map resolution to format ID"""
+        """Map resolution to format ID dengan support bahasa"""
         format_map = {
+            # Format dasar (video + audio)
             "1080p60": "299+140",
             "1080p30": "137+140", 
             "720p60": "298+140",
@@ -135,6 +136,26 @@ class Backend:
             "480p": "135+140",
             "360p": "134+140",
             "240p": "133+140",
-            "144p": "160+140"
+            "144p": "160+140",
+            
+            # Format dengan audio Indonesia
+            "1080p60 id": "299+140-1",
+            "1080p30 id": "137+140-1", 
+            "720p60 id": "298+140-1",
+            "720p30 id": "136+140-1",
+            "480p id": "135+140-1",
+            "360p id": "134+140-1",
+            "240p id": "133+140-1",
+            "144p id": "160+140-1",
+            
+            # Format dengan audio English (gunakan bestaudio)
+            "1080p60 eng": "299+140-0",
+            "1080p30 eng": "137+140-0", 
+            "720p60 eng": "298+140-0",
+            "720p30 eng": "136+140-0",
+            "480p eng": "135+140-0",
+            "360p eng": "134+140-0",
+            "240p eng": "133+140-0",
+            "144p eng": "160+140-0"
         }
-        return format_map.get(resolution, "136+140")
+        return format_map.get(resolution, "136+140")  # Default 720p

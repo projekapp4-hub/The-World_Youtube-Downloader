@@ -82,8 +82,12 @@ class PlaylistTab(QWidget):
         
         self.res_combo = QComboBox()
         self.res_combo.addItems([
-            "1080p60", "1080p30", "720p60", "720p30", 
-            "480p", "360p", "240p", "144p"
+            "1080p60", "1080p60 id", "1080p60 eng", "1080p30", "1080p30 id", "1080p30 eng",
+            "720p60", "720p60 id", "720p60 eng", "720p30", "720p30 id", "720p30 eng",
+            "480p", "480p id", "480p eng", 
+            "360p", "360p id", "360p eng", 
+            "240p", "240p id", "240p eng", 
+            "144p", "144p id", "144p eng"
         ])
         self.res_combo.setMinimumHeight(30)
         
