@@ -96,7 +96,7 @@ class Backend:
         format_id = self._get_format_id(resolution)
         cmd = [
             str(self.ytdlp_path),
-            "-f", f"{format_id}/best",
+            "-f", "bestvideo[height<=720][vcodec^=avc1]+140/140-1",
             "--merge-output-format", "mkv",
             "--extractor-args", "youtube:formats=dashy",
             "-N", "8",
