@@ -1,46 +1,49 @@
 # The-World_Youtube-Downloader
 
-**The World** adalah aplikasi downloader video dan audio dari YouTube yang memanfaatkan `yt-dlp` sebagai backend utama serta `ffmpeg` untuk proses konversi dan manipulasi media.
+**The World** is a video and audio downloader application from YouTube that utilizes `yt-dlp` as its main backend and `ffmpeg` for media conversion and manipulation.
 
-## Fitur Utama
-- Download video dari YouTube dengan berbagai resolusi
-- Download video dari playlist public/unlisted dari youtube dengan berbagai resolusi
-- Download audio saja (ekstrak dari video YouTube)
-- Mendukung penggabungan dan konversi format dengan ffmpeg
-- Penggunaan mudah dengan antarmuka sederhana
+## Key Features
+- Download videos from YouTube in various resolutions
+- Download videos from public/unlisted YouTube playlists in various resolutions
+- Download audio only (extract from YouTube videos)
+- Supports merging and format conversion with ffmpeg
+- Easy to use with a simple interface
 
-## Cara Kerja
-Aplikasi ini menggunakan binari `yt-dlp` untuk mengekstrak dan mengunduh konten dari YouTube, kemudian memanfaatkan `ffmpeg` untuk mengolah file hasil unduhan (misal: konversi ke format lain, ekstraksi audio).
+## How It Works
+This application uses the `yt-dlp` binary to extract and download content from YouTube, then utilizes `ffmpeg` to process the downloaded files (e.g., convert to other formats, extract audio).
 
-## Prasyarat
+## Prerequisites
 - Python 3.x
 - yt-dlp (https://github.com/yt-dlp/yt-dlp)
 - ffmpeg (https://ffmpeg.org/)
 
-Pastikan kedua binari (`yt-dlp` dan `ffmpeg`) sudah tersedia di folder "bin" dan dapat diakses dari terminal/command prompt.
+Ensure that both binaries (`yt-dlp` and `ffmpeg`) are available in the “bin” folder and accessible from the terminal/command prompt.
 
-## Instalasi
-Clone repository ini:
+## Installation
+Clone this repository:
 ```bash
 git clone https://github.com/projekapp4-hub/The-World_Youtube-Downloader.git
 ```
-Instal dependensi Python jika diperlukan:
+Install Python dependencies if needed:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Penggunaan
-Contoh pemakaian sederhana:
+## Usage
+Simple usage example:
 ```bash
 python main.py
 ```
-Untuk opsi dan fitur lebih lanjut, silakan cek dokumentasi atau bantuan dalam aplikasi.
+For more options and features, please check the documentation or help within the application.
 
-## Lisensi
-Aplikasi ini menggunakan MIT License dan dapat digunakan/dimodifikasi sesuai kebutuhan, dengan tetap menghormati lisensi dari yt-dlp dan ffmpeg.
+## License
+This application uses the MIT License and can be used/modified as needed, while respecting the licenses of yt-dlp and ffmpeg.
 
-## Kontribusi
-Silakan ajukan issue atau pull request untuk perbaikan, penambahan fitur, atau saran pengembangan.
+## Contributions
+Please submit issues or pull requests for improvements, feature additions, or development suggestions.
 
 ---
-**The World** adalah solusi mudah untuk mengunduh konten YouTube secara fleksibel menggunakan kekuatan yt-dlp dan ffmpeg.
+**The World** is an easy solution for flexibly downloading YouTube content using the power of yt-dlp and ffmpeg.
+
+
+Translated with DeepL.com (free version)
