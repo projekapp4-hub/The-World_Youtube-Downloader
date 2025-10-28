@@ -1,5 +1,7 @@
 # The-World_Youtube-Downloader
 
+[Versi English](README.md)
+
 **The World** adalah aplikasi downloader video dan audio dari YouTube yang memanfaatkan `yt-dlp` sebagai backend utama serta `ffmpeg` untuk proses konversi dan manipulasi media.
 
 ## Fitur Utama
